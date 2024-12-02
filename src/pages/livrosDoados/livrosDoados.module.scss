@@ -13,7 +13,7 @@
 .containerCards {
   width: 95%;
   height: 60vh;
-
+ 
   section {
     border: solid 3px #005695;
     width: 18%;
@@ -26,6 +26,20 @@
 
     div {
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+
+  .containerCards {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+    section {
+      width: 60%;
     }
   }
 }

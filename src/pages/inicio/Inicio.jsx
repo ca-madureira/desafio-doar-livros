@@ -13,7 +13,7 @@ export default function Inicio() {
       <section className={s.porqueDoarSection}>
         <h2>Por que devo doar?</h2>
         <section className={s.containerCards}>
-          <section className={s.cardsMotivos}>
+          <section>
             <img
               src={imagem1}
               alt="Imagem ilustrando circulo social de 4 pessoas"

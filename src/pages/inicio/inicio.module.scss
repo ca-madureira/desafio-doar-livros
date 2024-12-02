@@ -49,3 +49,46 @@
     }
   }
 }
+
+@media (max-width: 780px) {
+  
+  .primeiroSessaoInicial{
+    background-position: center;
+    height: 50vh;
+
+   h2{
+      text-align: center;
+      width: 90%;
+      font-size:28px;
+    }
+  }
+
+  .porqueDoarSection {
+    height: 120vh;
+
+    h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+
+  .containerCards{
+    flex-direction: column;
+    height: 110vh;  
+    align-items: center;
+
+    section{
+      width: 70%;
+      height: 25vh;
+  
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        width: 15%;
+      }
+    }
+  }
+  
+}
